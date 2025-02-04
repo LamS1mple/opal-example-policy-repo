@@ -1,10 +1,13 @@
 {
   "users": {
     "alice": {
-      "roles": ["admin"],
+      "roles": [
+        "admin"
+      ],
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
       }
     }
+  }
 }
