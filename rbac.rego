@@ -28,7 +28,9 @@ default allow = false
 allow {
 	user_is_admin
 }
-
+allow {
+	input.user == "bob"
+}
 # Allow bob to do anything
 #allow {
 #	input.user == "bob"
